@@ -1,0 +1,121 @@
+body{
+background-color: white;
+background-position-x: center;
+background-size: auto 750px;
+background-repeat: no-repeat;
+margin: 0px;
+padding: 0px;
+}
+header::before{
+    background: url('img/pexels-photo-2261477.jpeg') no-repeat center center/cover;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+    opacity: 0.5;
+}
+.heading{
+    color: black;
+    font-size: 80px;
+    margin-bottom: 0px;
+    height: 90px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+
+
+}
+.navBar{
+    background-color: #222e33;
+ margin-top: 0;
+ height: 50px;
+}
+.navBar li{
+    float: left;
+    padding: 15px 40px;
+    list-style: none;
+}
+.navBar li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+.account{
+    float: right;
+    padding: 15px 40px;
+    color: white;
+    font-size: 20px;
+    display: flex;
+    justify-content: right;
+    
+}
+.account a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+.account a:hover{
+    color: yellowgreen;
+}
+#login{
+    padding: 0px 30px;
+}
+.navBar ul{
+    overflow: auto;
+    margin: 0px;
+    padding: 0px;
+}
+.navBar input{
+    border-radius: 25px;
+}
+.enroll{
+    background-color: #222e33;
+    padding: 120px;
+    margin: 100px 50px;
+    display: inline-flex;
+    border-radius: 100%;
+    font-size: 30px;
+}
+.enroll a{
+    color: white;
+    text-decoration: none;
+}
+button{
+    border-radius: 20px;
+}
+a:hover{
+    color: yellowgreen;
+}
+.navBar li a:hover {
+    color: yellowgreen;
+}
+.container1 {
+    margin: 200px;
+    display: block-flex;
+    justify-content: center;
+
+}
+.services{
+    background-color: #222e33;
+    margin: 55px;
+    border: 2px solid black;
+    padding: 100px;
+    color: white;
+    height: 200px;
+}
+
+.contact_us{
+    border: 2px solid black;
+    color: white;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    
+    font-size: 25px;
+    width: 100% cover;
+    height: 200px;
+    background-color: #222e33;
+}

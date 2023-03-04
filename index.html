@@ -1,53 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Gym Website</title>
-</head>
-<link rel="stylesheet" href="style.css">
-<style>
-    body{
-        margin: 0px;
-        padding: 0px;
-        background: url(img/pexels-photo-1954524.webp);
-        background-repeat: no-repeat;
-        background-size: 1540px 800px;
-        color: white;
-    }
-    .left{
-        border: 2px solid red;
-        display: inline-block;
-    }
-    .middle{
-        border: 2px solid red;
-        display: inline-block;
-    }
-    .right{
-        border: 2px solid red;
-        display: inline-block;
-    }
-    .header{
-        float: left;
-        /* list-style: none; */
-        padding: 10px;
-    }
-</style>
-<body>
-    <header class="header">
-        <!-- Left box fro logo -->
-        <div class="left">
-i am left
-        </div>
-<!-- Mid box for Nav Bar -->
-        <div class="middle">
-i am middle
-        </div>
-        <!-- Right box for buttons  -->
-        <div class="right">
-            i am right
-        </div>
+  </head>
+  <link rel="stylesheet" href="style.css" />
+  <body>
+    <header>
+      <div class="heading">EVERYTIME FITNESS > > > ></div>
+      <nav class="navBar">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#contact_us">Gallery</a></li>
+          <li><a href="#contact_us">Contact Us</a></li>
+          <div class="account">
+            <div class="login" id="login">
+              <a href="login">Log In</a> 
+            </div>
+            <div class="signup" id="signup">
+              <a href="signup"> Sign Up</a>
+            </div>
+          </div>
+        </ul>
+      </nav>
     </header>
-</body>
+    <div class="container1">
+      <div class="services" id="1">Aerobics</div>
+      <div class="services" id="2">Weight Traning</div>
+      <div class="services" id="3">Zumba</div>
+      <div class="services" id="4">Personal Guidance</div>
+    </div>
+    <div class="contact_us" id="contact_us">Contact Us</div>
+  </body>
 </html>

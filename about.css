@@ -1,0 +1,22 @@
+.container2{
+    border: 3px solid #7d8f93;
+    margin: 90px 100px;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    background-image: url(img/pexels-photo-7031706.jpeg);
+    background-position-y: center;
+}
+body{
+    background-color: #222e33;
+}
+.about{
+background-color: #222e33;
+    padding: 50px;
+    background-color: #7d8f93;
+    border: 2px solid ;
+    margin: 50px;
+}
+.about:hover {
+    transform: scale(1.1);
+}

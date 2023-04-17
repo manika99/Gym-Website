@@ -5,9 +5,11 @@ background-size: auto 750px;
 background-repeat: no-repeat;
 margin: 0px;
 padding: 0px;
+perspective: 100px;
 }
 header::before{
     background: url('img/pexels-photo-2261477.jpeg') no-repeat center center/cover;
+
     content: "";
     position: absolute;
     top: 0;
@@ -29,7 +31,7 @@ header::before{
 
 }
 .navBar{
-    background-color: #222e33;
+    background-color: black;
  margin-top: 0;
  height: 50px;
 }
@@ -93,22 +95,124 @@ a:hover{
     color: yellowgreen;
 }
 .container1 {
-    margin: 200px;
-    display: block-flex;
-    justify-content: center;
-
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
-.services{
-    background-color: #222e33;
-    margin: 55px;
+.services-text{
+    display: flex;
+    justify-content: center;
+    height: 10vh;
+    width: 20vw;
+    background-color: black;
+    /* padding: 75px; */
+    /* font-size: 30px; */
     border: 2px solid black;
-    padding: 100px;
-    color: white;
-    height: 200px;
+    /* font-family: cursive; */
+}
+.services {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  margin: 72px;
+  border: 2px solid black;
+  color: white;
+  width: 50vw;
+  height: 50vh;
+  background-size: cover;
+  background-position: center;
+  animation-name: changeBackgroundImage;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+@keyframes changeBackgroundImage {
+  0% {
+    background-image: url('img/aerobics/1.avif');
+  }
+  25% {
+    background-image: url('img/aerobics/2.avif');
+  }
+  50% {
+    background-image: url('img/aerobics/3.avif');
+  }
+  75% {
+    background-image: url('img/aerobics/4.avif');
+  }
+  100% {
+    background-image: url('img/aerobics/5.avif');
+  }
+}
+
+.services:nth-of-type(2) {
+  animation-name: changeBackgroundImage2;
+}
+
+@keyframes changeBackgroundImage2 {
+  0% {
+    background-image: url('img/weight-training/1.avif');
+  }
+  25% {
+    background-image: url('img/weight-training/2.avif');
+  }
+  50% {
+    background-image: url('img/weight-training/3.avif');
+  }
+  75% {
+    background-image: url('img/weight-training/4.avif');
+  }
+  100% {
+    background-image: url('img/weight-training/5.avif');
+  }
+}
+
+.services:nth-of-type(3) {
+  animation-name: changeBackgroundImage3;
+}
+
+@keyframes changeBackgroundImage3 {
+  0% {
+    background-image: url('img/Personal-training/1.avif');
+  }
+  25% {
+    background-image: url('img/Personal-training/2.avif');
+  }
+  50% {
+    background-image: url('img/Personal-training/3.avif');
+  }
+  75% {
+    background-image: url('img/Personal-training/4.avif');
+  }
+  100% {
+    background-image: url('img/Personal-training/5.avif');
+  }
+}
+
+.services:nth-of-type(4) {
+  animation-name: changeBackgroundImage4;
+}
+
+@keyframes changeBackgroundImage4 {
+  0% {
+    background-image: url('img/aerobics/1.avif');
+  }
+  25% {
+    background-image: url('img/aerobics/2.avif');
+  }
+  50% {
+    background-image: url('img/aerobics/3.avif');
+  }
+  75% {
+    background-image: url('img/aerobics/4.avif');
+  }
+  100% {
+    background-image: url('img/aerobics/5.avif');
+  }
 }
 
 .contact_us{
-    border: 2px solid black;
+    border: 2px solid white;
     color: white;
     margin: auto;
     display: flex;
@@ -117,5 +221,5 @@ a:hover{
     font-size: 25px;
     width: 100% cover;
     height: 200px;
-    background-color: #222e33;
+    background-color: black;
 }
